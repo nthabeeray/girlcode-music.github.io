@@ -13,7 +13,7 @@ nav{
     justify-content: space-between;
 }
 .nav-logo{
-    width: 100px;
+    width: 130px;
     display: block;
 }
 .nav-logo img{
@@ -42,10 +42,18 @@ nav{
     gap: 15px 15px;
     justify-items: center;
 }
+.song-section{
+    position: center ;
+}
 .song-item img{
     width: 200px;
+}
+.song-item a{
+    color: black;
+    text-decoration: none;
 }
 .song-info > *{
     margin: 0;
     color: white;
+    text-decoration: none;
 }
