@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.site-title {
+    margin: 0;
+    color: pink;
+}
