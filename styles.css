@@ -33,8 +33,10 @@ nav{
 .menu-item a:hover{
     color:red;
 }
-.songs-section{
+.songs-section,
+.song-section{
     padding: 72px 76px;
+
 }
 .songs-list{
     display: grid;
@@ -42,9 +44,7 @@ nav{
     gap: 15px 15px;
     justify-items: center;
 }
-.song-section{
-    position: center ;
-}
+
 .song-item img{
     width: 200px;
 }
@@ -56,4 +56,10 @@ nav{
     margin: 0;
     color: white;
     text-decoration: none;
+}
+.song-wrapper{
+    text-align: center;
+}
+.song-wrapper img{
+    width: 300px;
 }
